@@ -1,0 +1,90 @@
+Loaded Module           Size  Used by
+ccm                    20480  2
+rfcomm                 77824  2
+bnep                   20480  2
+snd_hda_codec_hdmi     45056  1
+arc4                   16384  2
+ath9k                 147456  0
+joydev                 20480  0
+ath9k_common           36864  1 ath9k
+ath9k_hw              475136  2 ath9k,ath9k_common
+isl29018               16384  0
+industrialio           65536  1 isl29018
+atmel_mxt_ts           32768  0
+cros_ec_devs           20480  0
+ath                    32768  3 ath9k_hw,ath9k,ath9k_common
+mac80211              761856  1 ath9k
+snd_hda_codec_ca0132    61440  1
+snd_hda_intel          36864  5
+snd_hda_codec         135168  3 snd_hda_intel,snd_hda_codec_hdmi,snd_hda_codec_ca0132
+intel_rapl             20480  0
+x86_pkg_temp_thermal    16384  0
+snd_hda_core           86016  4 snd_hda_intel,snd_hda_codec,snd_hda_codec_hdmi,snd_hda_codec_ca0132
+intel_powerclamp       16384  0
+coretemp               16384  0
+snd_hwdep              16384  1 snd_hda_codec
+snd_pcm               110592  5 snd_hda_intel,snd_hda_codec,snd_hda_core,snd_hda_codec_hdmi
+kvm_intel             192512  0
+cros_ec_lpc            16384  0
+cfg80211              581632  4 mac80211,ath9k,ath,ath9k_common
+cros_ec                16384  1 cros_ec_lpc
+snd_seq_midi           16384  0
+kvm                   598016  1 kvm_intel
+snd_seq_midi_event     16384  1 snd_seq_midi
+chromeos_laptop        16384  0
+snd_rawmidi            32768  1 snd_seq_midi
+irqbypass              16384  1 kvm
+crct10dif_pclmul       16384  0
+crc32_pclmul           16384  0
+ghash_clmulni_intel    16384  0
+snd_seq                69632  2 snd_seq_midi_event,snd_seq_midi
+aesni_intel           167936  4
+aes_x86_64             20480  1 aesni_intel
+lrw                    16384  1 aesni_intel
+glue_helper            16384  1 aesni_intel
+ablk_helper            16384  1 aesni_intel
+input_leds             16384  0
+cryptd                 24576  3 ablk_helper,ghash_clmulni_intel,aesni_intel
+intel_cstate           16384  0
+serio_raw              16384  0
+snd_seq_device         16384  3 snd_seq,snd_rawmidi,snd_seq_midi
+intel_rapl_perf        16384  0
+snd_timer              32768  2 snd_seq,snd_pcm
+ath3k                  20480  0
+mei_me                 40960  0
+snd                    86016  19 snd_hda_intel,snd_hwdep,snd_seq,snd_hda_codec,snd_timer,snd_rawmidi,snd_hda_codec_hdmi,snd_seq_device,snd_hda_codec_ca0132,snd_pcm
+btusb                  45056  0
+mei                   102400  1 mei_me
+shpchp                 36864  0
+btrtl                  16384  1 btusb
+soundcore              16384  1 snd
+btbcm                  16384  1 btusb
+lpc_ich                24576  0
+btintel                16384  1 btusb
+bluetooth             557056  32 btrtl,btintel,bnep,btbcm,rfcomm,ath3k,btusb
+uvcvideo               90112  0
+mac_hid                16384  0
+videobuf2_vmalloc      16384  1 uvcvideo
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         24576  1 uvcvideo
+videobuf2_core         40960  2 uvcvideo,videobuf2_v4l2
+videodev              180224  3 uvcvideo,videobuf2_core,videobuf2_v4l2
+media                  40960  2 uvcvideo,videodev
+parport_pc             32768  0
+ppdev                  20480  0
+lp                     20480  0
+parport                49152  3 lp,parport_pc,ppdev
+autofs4                40960  2
+i915                 1314816  105
+i2c_algo_bit           16384  1 i915
+drm_kms_helper        167936  1 i915
+syscopyarea            16384  1 drm_kms_helper
+ahci                   36864  2
+sysfillrect            16384  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+libahci                32768  1 ahci
+fb_sys_fops            16384  1 drm_kms_helper
+drm                   368640  9 i915,drm_kms_helper
+video                  40960  1 i915
+fjes                   28672  0
+
